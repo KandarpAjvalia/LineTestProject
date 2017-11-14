@@ -43,17 +43,17 @@ public class LineHost{
 	
 	public void findYInterceot()
 	{
-		yIntercept = y1 - (slope * x1);
+		hYIntercept = hY1 - (hSlope * hX1);
 	}
 	
 	public double getYIntercept()
 	{
-		return yIntercept;
+		return hYIntercept;
 	}
 	
 	public double verticalLine()
 	{
-		return verticalLinePoint;
+		return hVerticalLinePoint;
 	}
 	
 }

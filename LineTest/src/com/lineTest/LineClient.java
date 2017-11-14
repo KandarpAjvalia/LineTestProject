@@ -19,6 +19,8 @@ public class LineClient
         LineHost line2choice3;
         LineHost line2choice4;
         
+        
+        
         String[] options = new String[] {"Slope and y-intercept", "Two Points", "Slope and Point", "Vertical Line"};
         
         String response  = (String) JOptionPane.showInputDialog(null, "Option Dialog", "Select your option", JOptionPane.QUESTION_MESSAGE, null, options, options[0]);
